@@ -1,16 +1,16 @@
 Summary:	Converting WordPerfect(TM) documents into OpenOffice.org Writer format
 Summary(pl):	Konwersja dokumentów WordPerfecta(TM) na format OpenOffice.org Writera
 Name:		wpd2sxw
-Version:	0.5.2.1
+Version:	0.6.0
 Release:	1
 License:	LGPL
 Group:		Applications/Publishing
 Source0:	http://dl.sourceforge.net/libwpd/%{name}-%{version}.tar.gz
-# Source0-md5:	df46d0892b6e292565cc3cf4c8709ad3
+# Source0-md5:	8447e89c580d302e5b13e6eb6064a2ab
 URL:		http://libwpd.sourceforge.net/
-BuildRequires:	libwpd-devel >= 0.6.1
+BuildRequires:	libwpd-devel >= 0.7.0
 BuildRequires:	pkgconfig
-Requires:	libwpd >= 0.6.1
+Requires:	libwpd >= 0.7.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
