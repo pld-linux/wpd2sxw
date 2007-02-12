@@ -1,5 +1,5 @@
 Summary:	Converting WordPerfect(TM) documents into OpenOffice.org Writer format
-Summary(pl):	Konwersja dokumentów WordPerfecta(TM) na format OpenOffice.org Writera
+Summary(pl.UTF-8):   Konwersja dokumentÃ³w WordPerfecta(TM) na format OpenOffice.org Writera
 Name:		wpd2sxw
 Version:	0.6.1
 Release:	1
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Tool for converting WordPerfect documents into OpenOffice.org Writer
 format.
 
-%description -l pl
-Narzêdzie do konwertowania dokumentów WordPerfecta do formatu
+%description -l pl.UTF-8
+NarzÄ™dzie do konwertowania dokumentÃ³w WordPerfecta do formatu
 OpenOffice.org Writera.
 
 %prep
