@@ -9,10 +9,10 @@ Source0:	http://downloads.sourceforge.net/libwpd/writerperfect-%{version}.tar.gz
 # Source0-md5:	d0255522926690cfa82a425016da4f80
 URL:		http://libwpd.sourceforge.net/
 BuildRequires:	libstdc++-devel
-BuildRequires:	libwpd-devel >= 0.8.0
+BuildRequires:	libwpd-devel >= 0.9.0
 BuildRequires:	libwpg-devel >= 0.2.0
 BuildRequires:	pkgconfig
-Requires:	libwpd >= 0.8.0
+Requires:	libwpd >= 0.9.0
 Requires:	libwpg >= 0.2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -42,5 +42,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README
-%attr(755,root,root) %{_bindir}/*
+%doc NEWS README
+%attr(755,root,root) %{_bindir}/wpd2odt
+%attr(755,root,root) %{_bindir}/wpg2odg
